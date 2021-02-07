@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mission to Mars</title>
+    <link rel="stylesheet" href="./Mission to Mars_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="./Mission to Mars_files/jquery.min.js.download"></script>
+    <script src="./Mission to Mars_files/popper.min.js.download"></script>
+    <script src="./Mission to Mars_files/bootstrap.min.js.download"></script>
+    <link rel="stylesheet" href="./Mission to Mars_files/reset.css">
+
+</head>
+
+<body class="text-white" style="background-color:black;">
+    <div class="container">
+
+        <!-- Jumbotron -->
+        <div class="jumbotron text-center" style="background-image: url(https://cdn.theatlantic.com/static/mt/assets/science/0831Pic.jpg); background-size: 100%; height: 100%;">
+            <h1 class="display-4">Mission to Mars</h1>
+            <a class="btn btn-lg text-white" style="background-color:#c1440e;" href="http://127.0.0.1:5000/scrape" role="button">Scrape New
+                Data</a>
+        </div>
+
+
+        <!-- <body>
+    <div class="container">
+
+        <div class="jumbotron text-center border-bottom">
+            <h1 class="font-weight-bold">Mission to Mars</h1>
+            <p><a class="btn btn-primary btn-md" href="../scrape" role="button">Scrape New Data</a></p>
+        </div> -->
+
+        <!-- News Section -->
+        <div class="container">
+            <h3>Latest Mars News</h3>
+            <h6 style="color: #c1440e">NASA's Perseverance Pays Off Back Home</h6>
+            <p>Even as the Perseverance rover approaches Mars, technology on board is paying off on Earth.</p>
+        </div>
+
+        <!-- <div class="row">
+            <div class="col-md-12">
+                <h2><u>Latest Mars News</u></h2>
+            </div>
+
+        </div> -->
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <h4>NASA's Perseverance Pays Off Back Home</h4>
+                <p>Even as the Perseverance rover approaches Mars, technology on board is paying off on Earth.</p>
+            </div>
+        </div>
+
+        <!-- <div class="border">
+            </br>
+            <h3>Mars Facts</h3>
+            
+        </div> -->
+
+        <!-- Table -->
+        <br>
+        <h3>Mars Facts</h3>
+        <div style="max-width: 450px; max-height: 150px; font-size: 15px; margin-bottom: 65px;">
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Description</th>
+      <th>Fact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Equatorial Diameter:</td>
+      <td>6,792 km</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Polar Diameter:</td>
+      <td>6,752 km</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Mass:</td>
+      <td>6.39 × 10^23 kg (0.11 Earths)</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Moons:</td>
+      <td>2 (Phobos &amp; Deimos)</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Orbit Distance:</td>
+      <td>227,943,824 km (1.38 AU)</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Orbit Period:</td>
+      <td>687 days (1.9 years)</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Surface Temperature:</td>
+      <td>-87 to -5 °C</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>First Record:</td>
+      <td>2nd millennium BC</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Recorded By:</td>
+      <td>Egyptian astronomers</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+
+    </div><!-- Container -->
+
+    <hr>
+    <!-- <div class="row">
+        <div class="col-md-8 offset-4">
+            <h2 class="align-items-center"><u>Mars hemispheres</u></h2>
+        </div>
+    </div> -->
+
+    <!-- Cards -->
+    <h3 style="padding-top: 50px; margin-top: 100px; text-align: center;">Mars Hemispheres</h3>
+    <div class="card-deck">
+        <hr>
+        <div class="col-md-12">
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <div class="card text-white bg-dark" style="margin: 30px;">
+                        <img class="card-img-top" src="./Mission to Mars_files/full.jpg">
+                        <div class="card-body">
+                            <p class="card-text">Cerberus Hemisphere Enhanced</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card text-white bg-dark" style="margin: 30px;">
+                        <img class="card-img-top" src="./Mission to Mars_files/full(1).jpg">
+                        <div class="card-body">
+                            <p class="card-text">Schiaparelli Hemisphere Enhanced</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card text-white bg-dark" style="margin: 30px;">
+                        <img class="card-img-top" src="./Mission to Mars_files/full(2).jpg">
+                        <div class="card-body">
+                            <p class="card-text">Syrtis Major Hemisphere Enhanced</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card text-white bg-dark" style="margin: 30px;">
+                        <img class="card-img-top" src="./Mission to Mars_files/full(3).jpg">
+                        <div class="card-body">
+                            <p class="card-text">Valles Marineris Hemisphere Enhanced</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div><!-- Close main container -->
+
+    <br>
+    <!-- <div class="row">
+        
+        <div class="col-6 border">
+            </br>
+            <div>
+                <img width="512 px" height="512 px" src="">
+            </div>
+
+            <div>
+                <h4> Cerberus Hemisphere Enhanced </h4>
+            </div>
+
+        </div>
+        
+        <div class="col-6 border">
+            </br>
+            <div>
+                <img width="512 px" height="512 px" src="">
+            </div>
+
+            <div>
+                <h4> Schiaparelli Hemisphere Enhanced </h4>
+            </div>
+
+        </div>
+        
+        <div class="col-6 border">
+            </br>
+            <div>
+                <img width="512 px" height="512 px" src="">
+            </div>
+
+            <div>
+                <h4> Syrtis Major Hemisphere Enhanced </h4>
+            </div>
+
+        </div>
+        
+        <div class="col-6 border">
+            </br>
+            <div>
+                <img width="512 px" height="512 px" src="">
+            </div>
+
+            <div>
+                <h4> Valles Marineris Hemisphere Enhanced </h4>
+            </div>
+
+        </div>
+        
+    </div> -->
+    <hr>
+    <footer class="footer">
+        <span class="bottom">Mars Explore</span>
+        <!-- <div class="footer">&copy; Copyright Karla M. Murphy 2021
+
+        </div> -->
+    </footer>
+
+
+</body></html>
