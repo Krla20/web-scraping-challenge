@@ -128,7 +128,7 @@ def scrape():
         # "html_table_dict":html_table_dict,
         "hemisphere_images":hemisphere_image_urls
     }
-
+    print(mars_dict)
     # Close the browser after scraping
     browser.quit()
 
