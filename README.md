@@ -17,14 +17,14 @@ A. NASA NEWS=> Scrape [NASA Mars News Site](https://mars.nasa.gov/news/) and col
 <p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/last_run.PNG"></p>
 
   - On the Jupyter Notebook for this section, the date was added as sample to visualized when those news were captured.
-<p align="center"><img width="100%" height= "100%" src="Missions_to_Mars/Images/marsnewsjup.PNG"></p>
+<p align="center"><img width="100%" height= "100%" src="Missions_to_Mars/Images/marsnewsjup1.PNG"></p>
 
 B. NASA MARS PROFILE=> Visit [Mars Facts webpage](https://space-facts.com/mars/) and use Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
   
- <p align="center"><img width="30%" height= "30%" src="Missions_to_Mars/Images/mars_profile.PNG"></p>
+ <p align="center"><img width="25%" height= "25%" src="Missions_to_Mars/Images/mars_profile.PNG"></p>
  
    - On the Jupyter Notebook, first extraction without modifications.
- <p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/2b.PNG"></p>
+ <p align="center"><img width="30%" height= "30%" src="Missions_to_Mars/Images/2b.PNG"></p>
 
 C. MARS HEMISPHERES=> Visit the [USGS Astrogeology site](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) to obtain high resolution images for each of Mar's hemispheres.
 <p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/hermispheres.PNG"></p>
@@ -35,7 +35,7 @@ C. MARS HEMISPHERES=> Visit the [USGS Astrogeology site](https://astrogeology.us
  ## Step 2 - MongoDB and Flask Application
  Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
   * MongoDB
-<p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/mongodb.PNG"></p>
+<p align="center"><img width="60%" height= "60%" src="Missions_to_Mars/Images/mongodb.PNG"></p>
       
   * HTML scrape page
   
