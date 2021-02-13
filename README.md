@@ -1,6 +1,7 @@
 # Web-Scraping-Challenge
 ### By Karla M. Murphy
-<p align="center"><img width="150%" height= "20" src="Missions_to_Mars/Images/journey.PN"></p>
+
+<p align="center"><img width="800" height= "300" src="Missions_to_Mars/Images/journey.PNG"></p>
 
 ## Objective
 - build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page from different web pages from NASA.
@@ -12,24 +13,23 @@
  ## Step 1 - Scraping
  
 A. NASA NEWS=> Scrape [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text. Assign the text to variables that you can reference later.
+
+<p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/last_run.PNG"></p>
+
   - On the Jupyter Notebook for this section, the date was added as sample to visualized when those news were captured.
-  
-  ![Sample_News_Scrap](Missions_to_Mars/Images/last_run.PNG)
-  
-  ![JupNotebook_News_Scrap](Missions_to_Mars/Images/marsnewsjup.PNG)
+<p align="center"><img width="100%" height= "100%" src="Missions_to_Mars/Images/marsnewsjup.PNG"></p>
 
 B. NASA MARS PROFILE=> Visit [Mars Facts webpage](https://space-facts.com/mars/) and use Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
-  - On the Jupyter Notebook, first extraction without modifications.
   
-    ![Mars_Profile](Missions_to_Mars/Images/mars_profile.PNG)
-    
-    ![JupNotebook_2.b](Missions_to_Mars/Images/2.c.PNG)
+ <p align="center"><img width="30%" height= "30%" src="Missions_to_Mars/Images/mars_profile.PNG"></p>
+ 
+   - On the Jupyter Notebook, first extraction without modifications.
+ <p align="center"><img width="30%" height= "30%" src="Missions_to_Mars/Images/2b.PNG"></p>
 
 C. MARS HEMISPHERES=> Visit the [USGS Astrogeology site](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) to obtain high resolution images for each of Mar's hemispheres.
-   - Jupyter Notebook, hemisphere_image_urls.
+ <p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/hermispheres.PNG"></p>
 
-      ![Mars_Profile](Missions_to_Mars/Images/hemispheres.PNG)
-      
+   - Jupyter Notebook, hemisphere_image_urls.      
       ![JupNotebook_2.b](Missions_to_Mars/Images/2c.PNG)
    
  ## Step 2 - MongoDB and Flask Application
