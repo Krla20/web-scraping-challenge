@@ -30,7 +30,7 @@ C. MARS HEMISPHERES=> Visit the [USGS Astrogeology site](https://astrogeology.us
  <p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/hermispheres.PNG"></p>
 
    - Jupyter Notebook, hemisphere_image_urls.      
-      ![JupNotebook_2.b](Missions_to_Mars/Images/2c.PNG)
+      ![JupNotebook_2.b](Missions_to_Mars/Images/2c1.PNG)
    
  ## Step 2 - MongoDB and Flask Application
  Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
