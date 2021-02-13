@@ -28,51 +28,45 @@
         <div class="container">
             <h2>Latest Mars News</h2>
             <h4 style="color: #c1440e">{{ mars.news_title }}</h4>
-            <h5>
-                <p>{{ mars.news_p }}</p>
-            </h5>
+            <h5><p>{{ mars.news_p }}</p></h5>
         </div>
 
         <!-- Table -->
         <br>
         <h2>Mars Facts</h2>
         <table class="table">
-            <div style="margin-bottom: 30px;">
+            <div
+                style="margin-bottom: 30px;">
                 {{mars.html_table | safe}}
             </div>
         </table>
-        <!-- Container -->
-        <!-- Cards -->
-        <div class="container">
-            <h2 style="padding-top: 50px; margin-top: 20px; text-align: center;padding-right: 10px;">Mars Hemispheres
-            </h2>
-            <br>
-            <hr>
-            <div class="card-deck">
-                <div class="col cmd-12">
-                    <div class="row">
-                        {% for hemisp in mars.hemisphere_images %}
-                        <div class="col-md-6">
-                            <div class="card text-white bg-dark"
-                                style="align-items: flex-start; text-align: center; border-image: fill; width: 30rem;">
-                                <img class="card-img-top" src="{{ hemisp.img_url }}" class=img-responsive
-                                    style="align-items: unset;" />
-                                <div class="card-body">
-                                    <p class="card-text">{{ hemisp.title }}</p>
-                                </div>
-                            </div>
+    </div><!-- Container -->
+    <!-- Cards -->
+    <h2 style="padding-top: 50px; margin-top: 20px; text-align: center;">Mars Hemispheres</h2>
+    <br>
+    <hr>
+    <div class="card-deck">
+        <div class="col cmd-12">
+            <div class="row">
+                {% for hemisp in mars.hemisphere_images %}
+                <div class="col-md-6">
+                    <div class="card text-white bg-dark" style="align-items: flex-start; border-image: fill; width: 20rem;">
+                        <img class="card-img-top" src="{{ hemisp.img_url }}" class= img-responsive style="align-items: unset;"/>
+                        <div class="card-body">
+                            <p class="card-text">{{ hemisp.title }}</p>
                         </div>
-                        {% endfor %}
                     </div>
                 </div>
+                {% endfor %}
             </div>
-        </div><!-- Close main container -->
+        </div>
+    </div><!-- Close main container -->
 
 
-        <hr>
-        <footer class="footer">
-            <span class="bottom">Mars Explore</span>
-        </footer>
+    <hr>
+    <footer class="footer">
+        <span class="bottom">Mars Explore</span>
+    </footer>
 
 </body>
 
