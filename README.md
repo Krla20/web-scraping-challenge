@@ -31,13 +31,13 @@ C. MARS HEMISPHERES=> Visit the [USGS Astrogeology site](https://astrogeology.us
 
    - Jupyter Notebook, hemisphere_image_urls.      
  <p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/2c1.PNG"></p>
-   
- ## Step 2 - MongoDB and Flask Application "[app.py](https://github.com/Krla20/web-scraping-challenge/blob/main/Missions_to_Mars/app.py)-[scrape_mars](https://github.com/Krla20/web-scraping-challenge/blob/main/Missions_to_Mars/scrape_mars.py)"
+ ************
+ ## Step 2 - MongoDB and Flask Application "[app.py](https://github.com/Krla20/web-scraping-challenge/blob/main/Missions_to_Mars/app.py)-[scrape_mars](https://github.com/Krla20/web-scraping-challenge/blob/main/Missions_to_Mars/scrape_mars.py)-[index.html](https://github.com/Krla20/web-scraping-challenge/blob/main/Missions_to_Mars/templates/index.html)"
  Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
   * MongoDB
 <p align="center"><img width="60%" height= "60%" src="Missions_to_Mars/Images/mongodb.PNG"></p>
       
-  * HTML scrape page "[index.html](https://github.com/Krla20/web-scraping-challenge/blob/main/Missions_to_Mars/templates/index.html)
+  * HTML scrape page
   
 <p align="center"><img width="60%" height= "60%" src="Missions_to_Mars/Images/page_1.PNG"></p>
 <p align="center"><img width="60%" height= "60%" src="Missions_to_Mars/Images/page_2.PNG"></p>
