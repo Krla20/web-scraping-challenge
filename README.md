@@ -39,9 +39,8 @@ C. MARS HEMISPHERES=> Visit the [USGS Astrogeology site](https://astrogeology.us
       
   * HTML scrape page
   
-<p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/page_1.PNG"></p>
- 
-<p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/page_2.PNG"></p>
+<p align="center"><img width="60%" height= "60%" src="Missions_to_Mars/Images/page_1.PNG"></p>
+<p align="center"><img width="60%" height= "60%" src="Missions_to_Mars/Images/page_2.PNG"></p>
  
  
  
