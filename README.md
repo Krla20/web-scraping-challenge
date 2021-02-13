@@ -10,7 +10,7 @@
   - [NASA Mars Hemispheres](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars)
  
  ************
- ## Step 1 - Scraping
+ ## Step 1 - Scraping "[mission_to_mars.ipynb](https://github.com/Krla20/web-scraping-challenge/blob/main/Missions_to_Mars/mission_to_mars.ipynb)"
  
 A. NASA NEWS=> Scrape [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text. Assign the text to variables that you can reference later.
 
@@ -32,12 +32,12 @@ C. MARS HEMISPHERES=> Visit the [USGS Astrogeology site](https://astrogeology.us
    - Jupyter Notebook, hemisphere_image_urls.      
  <p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/2c1.PNG"></p>
    
- ## Step 2 - MongoDB and Flask Application
+ ## Step 2 - MongoDB and Flask Application "[app.py](https://github.com/Krla20/web-scraping-challenge/blob/main/Missions_to_Mars/app.py)-[scrape_mars](https://github.com/Krla20/web-scraping-challenge/blob/main/Missions_to_Mars/scrape_mars.py)"
  Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
   * MongoDB
 <p align="center"><img width="60%" height= "60%" src="Missions_to_Mars/Images/mongodb.PNG"></p>
       
-  * HTML scrape page
+  * HTML scrape page "[index.html](https://github.com/Krla20/web-scraping-challenge/blob/main/Missions_to_Mars/templates/index.html)
   
 <p align="center"><img width="60%" height= "60%" src="Missions_to_Mars/Images/page_1.PNG"></p>
 <p align="center"><img width="60%" height= "60%" src="Missions_to_Mars/Images/page_2.PNG"></p>
