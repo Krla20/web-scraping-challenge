@@ -24,7 +24,7 @@ B. NASA MARS PROFILE=> Visit [Mars Facts webpage](https://space-facts.com/mars/)
  <p align="center"><img width="30%" height= "30%" src="Missions_to_Mars/Images/mars_profile.PNG"></p>
  
    - On the Jupyter Notebook, first extraction without modifications.
- <p align="center"><img width="30%" height= "30%" src="Missions_to_Mars/Images/2b.PNG"></p>
+ <p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/2b.PNG"></p>
 
 C. MARS HEMISPHERES=> Visit the [USGS Astrogeology site](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) to obtain high resolution images for each of Mar's hemispheres.
  <p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/hermispheres.PNG"></p>
@@ -35,14 +35,13 @@ C. MARS HEMISPHERES=> Visit the [USGS Astrogeology site](https://astrogeology.us
  ## Step 2 - MongoDB and Flask Application
  Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
   * MongoDB
-  
-      ![mongodb](Missions_to_Mars/Images/mongodb.png)
+<p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/mongodb.PNG"></p>
       
   * HTML scrape page
   
- ![scrap_page_1](Missions_to_Mars/Images/page_1.png)
+<p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/page_1.PNG"></p>
  
- ![scrap_page_1.png](Missions_to_Mars/Images/page_2.png)
+<p align="center"><img width="50%" height= "50%" src="Missions_to_Mars/Images/page_2.PNG"></p>
  
  
  
